@@ -11,5 +11,6 @@ export function randomRGB(): string {
 }
 
 export function randomRGBA(): string {
-  return `rgba(${RGB()}, ${Math.random().toFixed(3)})`
+  return `rgba(${RGB()}, ${Math.random().toFixed(1)})`
 }
+console.log(randomRGBA());
